@@ -1,0 +1,13 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+lib
+target
+.project
+.classpath
+.settings
+*.bak
+.DS_Store
+.wtpmodules
