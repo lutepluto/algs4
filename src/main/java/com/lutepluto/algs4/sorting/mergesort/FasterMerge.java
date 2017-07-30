@@ -19,7 +19,7 @@ public class FasterMerge {
     }
 
     private static void sort(Comparable[] a, int lo, int hi) {
-        if (hi < lo)
+        if (hi <= lo)
             return;
         int mid = lo + (hi - lo) / 2;
         sort(a, lo, mid);
