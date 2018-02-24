@@ -44,13 +44,6 @@ public class FixedCapacityStackOfStrings {
         return a[--N];
     }
 
-    /**
-     * @return the a
-     */
-    public String[] getA() {
-        return a;
-    }
-
     public static void main(String[] args) {
         FixedCapacityStackOfStrings s = new FixedCapacityStackOfStrings(100);
         while (!StdIn.isEmpty()) {
