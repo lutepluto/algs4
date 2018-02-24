@@ -3,8 +3,6 @@
  */
 package com.lutepluto.algs4.sorting.mergesort;
 
-import edu.princeton.cs.algs4.Insertion;
-
 /**
  * Creative problem 2.2.11
  *
@@ -27,7 +25,7 @@ public class ImprovedMerge {
 
         // Use insertion sort for small subarrays
         if (hi - lo + 1 <= 15) {
-            Insertion.sort(a, lo, hi);
+//            Insertion.sort(a, lo, hi);
             return;
         }
 
